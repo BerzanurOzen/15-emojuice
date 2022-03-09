@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+.description {
+    font-weight: 20px;
+    font-family: 'Quattrocento', serif;
+    color:#57BB6B ;
+    
+}
+.title {
+font-weight: 26px;
+ font-family: 'Maven Pro', sans-serif;
+ font-style: bold;
+}
+main{
+    background-color:#57BB6B ;
+}
+.homepage {
+    background-color:black ;
+    opacity: 10%;
+}
