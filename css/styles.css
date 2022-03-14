@@ -1,22 +1,30 @@
 body {
     text-align: center;
+    background-color: #57BB6B ;
+    margin: 8px 0px;
 }
-
+.home {
+    background-image: url("../img/Copie\ d\'écran\ du\ Plan\ de\ travail\ 1.png");
+    height: 380px;
+    padding: 28px;
+}
+.ticket {
+ text-align: center;
+ background-color: rgba(255, 255, 255, 0.76) ;
+ padding: 36px 0px ;
+}
+.ticket img {
+    width: 210px;
+}
 .description {
-    font-weight: 20px;
+    font-size: 20px;
     font-family: 'Quattrocento', serif;
     color:#57BB6B ;
+    margin-top: 15px;
     
 }
 .title {
 font-weight: 26px;
  font-family: 'Maven Pro', sans-serif;
  font-style: bold;
-}
-main{
-    background-color:#57BB6B ;
-}
-.homepage {
-    background-color:black ;
-    opacity: 10%;
 }
