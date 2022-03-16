@@ -2,6 +2,7 @@
     --green : #57BB6B ;
     --Maven : 'Maven Pro', sans-serif;
     --Quattrocento: 'Quattrocento', serif;
+    --Sriracha : 'Sriracha', cursive;
 }
 body {
     text-align: center;
@@ -25,7 +26,8 @@ body {
     font-size: 20px;
     font-family: var(--Quattrocento);
     color: var(--green);
-    margin-top: 15px;
+    margin: 15px 74px 33px 83px;
+    
 }
 nav {
     margin: 33px ;
@@ -33,18 +35,18 @@ nav {
 nav div {
     margin-bottom: 50px;
 }
-nav div  a {
+nav div a {
     margin-bottom: 50px;
     padding: 14px 17px;
     border-radius: 15px;
     text-decoration: none;
     font-family: var(--Maven) ;
 }
-.buttonProduct {
+.button {
     background-color: var(--green);
     color: white;
 }
-.buttonContact { 
+.button-light { 
     background-color: white;
     color: var(--green);
 }
@@ -64,10 +66,62 @@ h1 {
     padding: 0px 15px;
     margin-top: 35px;
 }
-
-
 .title {
 font-size: 26px;
  font-family: var(--Maven);
  font-style: bold;
+ margin: 95px 96px 31px 95px;
+}
+.Product {
+    margin: 40px 30px;
+}
+.titleProducts {
+color: white;
+font-size: 26px;
+font-family: var(--Maven);
+margin-bottom: 35px;
+}
+.fruitboard {
+    margin-bottom: 44px;
+    height: 240px;
+    padding: 35px 40px;
+    border-radius: 25px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.568) ;
+}
+.fruitTitle {
+    font-family: var(--Sriracha);
+    font-size: 30px;
+}
+.remark {
+    font-family: var(--Quattrocento);
+    font-size: 16px;
+    opacity: 50%;
+}
+.fruitPage {
+    font-size: 14px;
+    font-family: var(--Maven);
+    font-style: bold;
+    padding-top: 100px;
+    padding-right: 143px;
+
+}
+.banane {
+    background-color: #FFF8D7 ;
+}
+.fruitboard img {
+    width: 70px;
+
+}
+h2 {
+   margin: 0px;
+}
+.Product img {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  
+}
+p {
+    margin:27px 95px 36px 96px ;
 }
