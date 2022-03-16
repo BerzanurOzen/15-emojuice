@@ -11,7 +11,8 @@ body {
     margin: 8px 0px;
 }
 .home {
-    background-image: url("../img/Copie\ d\'écran\ du\ Plan\ de\ travail\ 1.png");
+    background-image: url("../img/fruitspng.webp");
+    background-size: cover;
     height: 380px;
     padding: 28px;
 }
@@ -161,4 +162,21 @@ p {
      font-family: var(--Maven);
      font-style: bold;
      margin: 43px 93px 35px 100px;
+ }
+ .container-kiwi {
+     color: white;
+     text-align: left;
+     font-family: var(--Quattrocento);
+     font-size: 16px;
+     padding: 62px 87px 55px 68px;
+ }
+ img {
+     padding: 31px 67px 38px 67px;
+ }
+ .contact {
+     text-align: center;
+     padding: 55px;
+     color:var(--green) ;
+     font-family:var(--Maven) ;
+
  }
