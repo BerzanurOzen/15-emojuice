@@ -3,6 +3,7 @@
     --Maven : 'Maven Pro', sans-serif;
     --Quattrocento: 'Quattrocento', serif;
     --Sriracha : 'Sriracha', cursive;
+    --green-light : #C4F2AD;
 }
 body {
     text-align: center;
@@ -27,16 +28,12 @@ body {
     font-family: var(--Quattrocento);
     color: var(--green);
     margin: 15px 74px 33px 83px;
-    
-}
-nav {
-    margin: 33px ;
 }
 nav div {
+    margin: 33px ;
     margin-bottom: 50px;
 }
 nav div a {
-    margin-bottom: 50px;
     padding: 14px 17px;
     border-radius: 15px;
     text-decoration: none;
@@ -64,7 +61,7 @@ h1 {
 .fruitline {
     width: 30px;
     padding: 0px 15px;
-    margin-top: 35px;
+    margin: 0px 0px 46px 0px;
 }
 .title {
 font-size: 26px;
@@ -97,6 +94,8 @@ margin-bottom: 35px;
     font-family: var(--Quattrocento);
     font-size: 16px;
     opacity: 50%;
+    text-align: left;
+    margin: 0px;
 }
 .fruitPage {
     font-size: 14px;
@@ -104,24 +103,62 @@ margin-bottom: 35px;
     font-style: bold;
     padding-top: 100px;
     padding-right: 143px;
-
 }
 .banane {
     background-color: #FFF8D7 ;
 }
+.kiwi {
+    background-color: var(--green-light);
+}
+.café {
+    background-color: #D3C6B2;
+}
+.fraise {
+    background-color: #F7A4B4;
+}
 .fruitboard img {
-    width: 70px;
-
+    width: 75px;
 }
 h2 {
    margin: 0px;
 }
-.Product img {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  
-}
 p {
     margin:27px 95px 36px 96px ;
 }
+.footer {
+    background-color: white;
+} 
+ .footer .title {
+    padding: 43px 93px 35px 100px;
+ }
+ .Product .container  {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: flex-end;
+
+ }
+ .source {
+     font-family:var(--Maven) ;
+     font-size: 12px;
+     color:var(--green) ;
+     margin: 74px 121px 112px 121px;
+
+ }
+ .container .button {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     padding: 15px 14px 13px 18px;
+    margin: 95px 76px 211px 76px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: var(--Maven) ;
+}
+ footer .title {
+    font-size: 26px;
+     font-family: var(--Maven);
+     font-style: bold;
+     margin: 43px 93px 35px 100px;
+ }
