@@ -11,6 +11,8 @@ body {
     text-align: center;
     background-color: var(--green) ;
     margin: 8px 0px;
+    margin: auto;
+    max-width: 400px;
 }
 .home {
     background-image: url("../img/fruitspng.webp");
@@ -45,10 +47,6 @@ nav div a {
 .button {
     background-color: var(--green);
     color: white;
-    padding: 15px 13px 13px 17px;
-    border-radius: 15px;
-    text-decoration: none;
-    font-family: var(--Maven) ;
     
 }
 .button-light { 
@@ -57,7 +55,7 @@ nav div a {
 }
 .intro {
     background-color: white;
-    padding: 90px 0px ;
+    padding: 62px 0px ;
 }
 .intro p {
     font-size: 16px;
@@ -75,7 +73,7 @@ h1 {
 font-size: 26px;
  font-family: var(--Maven);
  font-style: bold;
- margin: 95px 96px 31px 95px;
+ margin: 10px 98px 31px 92px;
 }
 .Product {
     margin: 40px 30px;
@@ -154,7 +152,7 @@ p {
      font-family:var(--Maven) ;
      font-size: 12px;
      color:var(--green) ;
-     margin: 74px 121px 112px 121px;
+     margin: 83px 124px 52px 121px;
 
  }
  .container .button {
@@ -163,7 +161,7 @@ p {
      align-items: center;
      justify-content: space-around;
      padding: 15px 14px 13px 18px;
-    margin: 95px 76px 211px 76px;
+    margin:20px 77px 0px 64px;
     border-radius: 15px;
     text-decoration: none;
     font-family: var(--Maven) ;
@@ -179,10 +177,11 @@ p {
      text-align: left;
      font-family: var(--Quattrocento);
      font-size: 16px;
-     padding: 62px 87px 55px 68px;
+
+     
  }
  img {
-     padding: 31px 67px 38px 67px;
+    width: 60%;
  }
  .contact {
      text-align: center;
