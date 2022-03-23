@@ -37,7 +37,7 @@ nav div {
     margin-bottom: 50px;
 }
 nav div a {
-    padding: 14px 17px;
+    padding: 15px 13px 13px 17px;
     border-radius: 15px;
     text-decoration: none;
     font-family: var(--Maven) ;
@@ -45,6 +45,11 @@ nav div a {
 .button {
     background-color: var(--green);
     color: white;
+    padding: 15px 13px 13px 17px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: var(--Maven) ;
+    
 }
 .button-light { 
     background-color: white;
@@ -194,9 +199,6 @@ p {
      margin: 31px 67px 38px 69px;
  }
  .FirstProductTitle{
-     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     background-color: var(--Strawberry);
  }
  .subtitle {
@@ -206,4 +208,13 @@ p {
  ul {
      font-family: var(--Quattrocento);
      font-size: 16px;
+ }
+  .morePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0px;
+ }
+ .OtherProduct {
+     background-color: var(--green-light);
  }
