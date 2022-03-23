@@ -4,6 +4,8 @@
     --Quattrocento: 'Quattrocento', serif;
     --Sriracha : 'Sriracha', cursive;
     --green-light : #C4F2AD;
+    --Strawberry :#F7A4B4;
+
 }
 body {
     text-align: center;
@@ -115,13 +117,17 @@ margin-bottom: 35px;
     background-color: #D3C6B2;
 }
 .fraise {
-    background-color: #F7A4B4;
+    background-color: var(--Strawberry);
 }
 .fruitboard img {
     width: 75px;
 }
 h2 {
    margin: 0px;
+}
+h3 {
+    font-size: 18px;
+    font-family: var(--Quattrocento);
 }
 p {
     margin:27px 95px 36px 96px ;
@@ -179,4 +185,25 @@ p {
      color:var(--green) ;
      font-family:var(--Maven) ;
 
+ }
+ .presentation {
+     background-color:var(--green-light) ;
+     padding: 79px 122px 68px 126px; 
+ }
+ .kiwi-img {
+     margin: 31px 67px 38px 69px;
+ }
+ .FirstProductTitle{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--Strawberry);
+ }
+ .subtitle {
+     font-size: 20px;
+     font-family: var(--Sriracha);
+ }
+ ul {
+     font-family: var(--Quattrocento);
+     font-size: 16px;
  }
