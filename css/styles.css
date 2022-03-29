@@ -108,7 +108,7 @@ margin-bottom: 35px;
     font-family: var(--Maven);
     font-style: bold;
     padding-top: 100px;
-    padding-right: 143px;
+    padding-right: 93px;
 }
 .banane {
     background-color: #FFF8D7 ;
@@ -123,7 +123,8 @@ margin-bottom: 35px;
     background-color: var(--Strawberry);
 }
 .fruitboard img {
-    width: 75px;
+    width: 74px;
+    padding-top: 59px;  
 }
 h2 {
    margin: 0px;
@@ -155,17 +156,7 @@ p {
      margin: 83px 124px 52px 121px;
 
  }
- .container .button {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: space-around;
-     padding: 15px 14px 13px 18px;
-    margin:20px 77px 0px 64px;
-    border-radius: 15px;
-    text-decoration: none;
-    font-family: var(--Maven) ;
-}
+
  footer .title {
     font-size: 26px;
      font-family: var(--Maven);
@@ -197,8 +188,10 @@ p {
  .kiwi-img {
      margin: 31px 67px 38px 69px;
  }
- .FirstProductTitle{
-    background-color: var(--Strawberry);
+ .ProductTitle{
+    margin: 0px 6px 0px 18px;
+    width: 170px;
+    border-radius: 25px;
  }
  .subtitle {
      font-size: 20px;
@@ -216,4 +209,54 @@ p {
  }
  .OtherProduct {
      background-color: var(--green-light);
+     margin: 0px;
  }
+.ImgPlus {
+    width: 40px;
+}
+.ImgIcon {
+    width: 70px;
+margin: 0px 16px 16px 0px  ;
+
+}
+.containerPage {
+    display: flex;
+    }
+    .ProductTitle .fraise {
+        background-color: var(--Strawberry);
+    }
+    .brun {
+        background-color: #D3C6B2;
+    } 
+    .Plus {
+        margin: 0px;
+    }
+    .morePage {
+        margin: 50px 2px 3px 21px;
+    }
+    .ancre {
+        display: flex;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        margin: 20px 0px; 
+        padding: 20px;
+    }
+
+    .container .button {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around; */
+        padding: 15px 14px 13px 18px;
+       margin:20px 77px 0px 64px;
+       border-radius: 15px;
+       text-decoration: none;
+       font-family: var(--Maven) ;
+   }
